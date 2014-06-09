@@ -1,0 +1,59 @@
+table, th, td {
+    border: 1px solid gray;
+    font-family: Verdana;
+    font-size: 12px;
+}
+th{
+	font-size:48px;
+}
+tr{
+	height:100px;
+	
+}
+td{
+	width: 100px;}
+.left{
+	text-align: left;
+	
+}
+.right{
+	text-align: right;
+}
+.rightBig{
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+.bottom{
+	vertical-align: bottom;
+}
+.top{
+	vertical-align: top;
+}
+.middle{
+	vertical-align:middle;
+	text-align:center;
+}
+.topCenter{
+	vertical-align: top;
+	text-align: center;
+}
+.topLeft{
+	vertical-align: top;
+	text-align: left;
+}
+.topRight{
+	vertical-align: top;
+	text-align: right;
+}
+.topBottom{
+	vertical-align: bottom;
+	text-align: center;
+}
+.bottomRight{
+	vertical-align: bottom;
+	text-align: right;
+}
+.bottomLeft{
+	vertical-align: bottom;
+	text-align: left;

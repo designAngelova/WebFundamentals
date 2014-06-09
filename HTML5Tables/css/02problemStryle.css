@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid gray;
+    font-family: Verdana;
+}
+th{
+	font-size:20px;
+}
+tbody th{
+	font-size:14px;
+}
+
+tbody, tfoot{
+	font-size:14px;
+}
+ tfoot{
+ 	text-align: right;
+ }

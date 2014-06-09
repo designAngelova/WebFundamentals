@@ -1,0 +1,7 @@
+table, th, td {
+	 border: 1px solid gray;
+}
+#nested {
+	 font-family: Calibri;
+    font-size: 70px;
+}

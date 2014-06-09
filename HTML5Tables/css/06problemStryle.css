@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid gray;
+    font-family: Verdana;
+    font-size: 12px;
+}
+th{
+	font-size:48px;
+}
+tr{
+	height:100px;
+	
+}
+td{
+	width: 100px;}
+.left{
+	text-align: left;
+	
+}
+button{
+	width:100%;
+	height:100px;
+	color:blue;
+}
+button.nested{
+	color:blue;
+	height:40px;
+}
+.nested table tr{
+	
+	height:30px;
+}
+#header{
+	font-size:38px;
+}
+#right{
+	text-align:right;
+	font-size:20px;
+}
