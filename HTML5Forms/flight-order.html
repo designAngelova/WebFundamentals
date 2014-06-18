@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Flight Order</title>
+		<link type="text/css" rel="stylesheet" href="css/02.css" />
+	</head>
+	<body>
+		<div class="content">
+			<h1>Flight order</h1>
+		<div class="left-content">
+			<form  id="departure" method="get">
+
+				<fieldset>
+					
+
+					<label for"departure-city">From</label>
+					<select id="departure-city" name="departure-city" required>
+						<option value="">enter a city</option>
+						<option value="Sofia">Sofia</option>
+						<option value ="Plovdiv">Plovdiv</option>
+						<option value ="Burgas">Burgas</option>
+						<option value="Varna">Varna</option>
+					</select>
+					<div class="bottom">
+					<label for="departure-date">Departure Date</label>
+					<input type="date" id="departure-date" required="required"
+					pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" title="Please use Format: DD.MM.YYYY "/>
+					<label for="return-date">Return Date</label>
+					<input type="date" id="return-date" required="required"
+					pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" title="Please use Format: DD.MM.YYYY "/>
+					<ul class="passangers">
+					<li><label for="adults">12+</label>
+					<input type="number"  name="adults" id="adults" min="0" max="45"/></li>
+					<li><label for="middle-adults">2-12</label>
+					<input type="number"  name="middle-adults" id="middle-adults" min="0" max="45"/></li>
+					
+					
+						<li><label for="babies">0-2</label>
+						<input type="number"  name="babies" id="babies" min="0" max="45"/></li>
+					</ul>
+					</div>
+				</fieldset>
+
+			</form>
+		</div>
+		<div class="right-content">
+			<form id="arival">
+				<fieldset>
+
+					<label for"arival-city">To</label>
+					<select id="arival-city" name="arival-city" required>
+						<option value="">enter a city</option>
+						<option value="Sofia">London</option>
+						<option value ="Plovdiv">Paris</option>
+						<option value ="Burgas">Rome</option>
+						<option value="Varna">Prague</option>
+					</select>
+					<div class="inline">
+					
+					<input type="checkbox"  id="direct-fly"/>
+					<label class ="inline" for="direct-fly">Prefer directs</label>
+					</div>
+					<label for="time-interval">Time Interval</label>
+					<input type="time" id="time-interval-start"/>
+					<input type="time" id="time-interval-end"/>
+					<label for="time-interval-second">Time Interval</label>
+					<input type="time" id="time-interval-start-second"/>
+					<input type="time" id="time-interval-end-second"/>
+					<label for"fly-class">Choose class</label>
+					<select id="fly-class" name="fly-class" >
+						<option value="Sofia">Economy</option>
+						<option value ="Plovdiv">Business</option>
+						<option value ="Burgas">Lux</option>
+						<option value="Varna">Extra</option>
+					</select>
+					<input type="button" id="search" value="Search" />
+				</fieldset>
+
+			</form>
+		</div>
+		</div>
+	</body>
+</html>
+

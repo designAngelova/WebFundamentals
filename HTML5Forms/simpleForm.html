@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+
+<html  lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Simple Form</title>
+		<link type="text/css" rel="stylesheet" href="css/01.css" />
+	</head>
+	<body>
+		<div id="content">
+	<form method="get">
+	<fieldset>
+		<legend>
+			Enter the system
+		</legend>
+		<p> It is necessary to login in Your account in order to sign in for a course</p>
+		</fieldset>
+		<fieldset id="new-user">
+			<legend class="upper"><span id= "gray">Are you new?</span> Register</legend>
+			<input type="text" required="required" placeholder="User name" />
+			<input type="email" required="required" placeholder="Email" />
+			<input type="password" required="required"  placeholder="Password" />
+			<input type="password" required="required"  placeholder="Confiram Password" />
+			<input type="submit" class="submit" name ="submit" value="Register"  />
+			</fieldset>
+	
+			<fieldset id="registered-user">
+				<legend class="upper">
+					Already a stydent? Login
+				</legend>
+				<input type="text" required="required" placeholder="User name" />
+				<input type="password" required="required" placeholder="Password" />
+				<input type="checkbox" id="remember"/>
+				<label for="remember"> Remember me?</label>
+				<div id="password">
+				<input type="submit" class="login" name="submit" value="Login"/>
+				<a href="#" >Forgot Password</a>
+				</div>
+			</fieldset>
+	</form>
+	</div>
+	</body>
+</html>
+

@@ -1,0 +1,125 @@
+body{
+	color:#FFFFFF;
+	font-family:Tahoma;
+}
+.content{
+	background: #3E599D;
+	width:820px;
+	height:500px;
+}
+img.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+input[type="color"]{
+	background-color:#FFFFFF;
+}
+
+h1{
+	
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+}
+h2{
+	font-size:16px;
+	text-align:center;
+	font-weight: bold;
+}
+.left-content{
+	float:left;
+	margin: 0 auto;
+	width:300px;
+	margin-left:20px;
+}
+.right-content{
+	 float: right;
+    margin-left: 20px;
+    margin-right: 60px;
+    width: 400px;
+}
+fieldset{
+	border-radius:5px;
+	 height: 230px;
+}
+legend{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="password"], input[type="number"]{
+	border: medium none #FFFFFF;
+    border-radius: 3px;
+    
+    height: 25px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 2px;
+    width: 120px;
+}
+input[type="color"]{
+	border: medium none #FFFFFF;
+    border-radius: 3px;
+    
+    height: 25px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 2px;
+    width: 120px;}
+input[type="text"]#number, input[type="text"]#floor, input[type="text"]#appartment{
+	 width: 60px;
+}
+
+select{
+border: medium none #FFFFFF;
+    border-radius: 3px;
+    display: inline;
+    height: 28px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 5px;
+    width: 120px;
+   }
+label{
+	font-weight:bold;
+	font-size:12px;
+	padding-right: 5px;
+	
+}
+input[type="datetime"]{
+	width: 210px;
+	 border: medium none #FFFFFF;
+    border-radius: 3px;
+    display: inline;
+    height: 25px;
+}
+input[type="reset"],input[type="submit"] {
+	background: #E7E7E7;
+	border:#E7E7E7;
+	border-radius:10px;
+	color:#3A589A;
+	width:300px;
+	height:50px;
+	margin-top:10px;
+	font-size:14px;
+	font-weight: bold;
+	
+}
+input[type="submit"]#register{
+	width: 430px;
+	font-family:Tahoma;
+	font-size:28px;
+	font-weight: normal;
+}
+textarea{
+	 border: medium none #FFFFFF;
+	width:400px;
+	border-radius: 5px;
+	height:60px;
+}

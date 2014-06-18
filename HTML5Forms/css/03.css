@@ -1,0 +1,18 @@
+body{
+	font-size:25px;
+}
+.content{
+	width:550px;
+}
+input[type="search"]{
+	height:30px;
+	width: 250px;
+	font-size:18px;
+}
+input[type="image"]{
+	
+	vertical-align: middle;
+}
+.inline{
+	display:inline-block;
+}

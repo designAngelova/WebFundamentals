@@ -1,0 +1,84 @@
+body {
+	background: #FFC6CE;
+}
+.content {
+	width: 600px;
+	
+}
+
+fieldset {
+	border: none;
+}
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-size:42px;
+	font-family:Verdana;
+}
+.left-content {
+	float: left;
+	width: 300px;
+}
+.right-content {
+	float: right;
+	width: 300px;
+}
+label {
+	font-style: italic;
+	text-align: left;
+	font-size: 16px;
+	display: block;
+	padding-top: 10px;
+}
+input[type="date"], select {
+	width: 280px;
+	height: 30px;
+	font-size: 16px;
+}
+input[type="time"] {
+	width: 130px;
+	height: 30px;
+	display: inline;
+	font-size: 16px;
+}
+input[type="number"] {
+	width: 86px;
+	height: 25px;
+	display: inline;
+	font-size: 16px;
+}
+.bottom{
+	margin-top:20px;
+}
+
+#search {
+	background: -webkit-linear-gradient(#FCFCFC, #E8E8E8); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FCFCFC, #E8E8E8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FCFCFC, #E8E8E8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FCFCFC, #E8E8E8); /* Standard syntax (must be last) */
+	border: 2px solid #C5BFC0;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.inline {
+	display: inline;
+	width: 240px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+ul.passangers {
+	margin: 0 auto;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+li {
+	display: inline-block
+}
+

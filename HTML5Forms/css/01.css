@@ -1,0 +1,130 @@
+body {
+	background-color: #EEEEEE;
+	font-family: 'PT Sans', Tahoma, sans-serif;
+	font-size: 14px;
+}
+#content{
+	margin:0 auto;
+    padding:0;
+    width:800px;
+}
+fieldset {
+	border: none;
+	font-family: Tahoma;
+}
+fieldset legend {
+	color: #234465;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.upper {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#gray {
+	color: #808080;
+}
+
+#new-user {
+	position:inherit;
+	margin:0 auto;
+    padding-right:15px;
+	float :left;
+	width:45%;
+	
+}
+#registered-user {
+	position:inherit;
+	background-color: #234465;
+	color: #FFFFFF;
+	width:45%;
+	float: right;
+	height:315px;
+	padding-right: 15px;
+}
+#registered-user legend {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top:30px;
+}
+
+input[type ="text"], input[type="email"], input[type="password"] {
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #555555;
+	display: block;
+	height: 34px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	width: 90%;
+	margin-top: 15px;
+}
+input[type = "submit"].submit {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 2px solid #234465;
+	color: #234465;
+	font-family: "PT Sans", arial, sans-serif;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	float:right;
+	width: 50%;
+	margin-top: 15px;
+	margin-right:10px;
+}
+input[type = "submit"].submit:hover {
+	background-color: #234465;
+	color: #fff;
+}
+
+input[type = "submit"].login {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color:#FFFFFF;
+    border: 2px solid #FF9C00;
+    line-height: 40px;
+    border-radius: 0;
+    height: 40px;
+    font-size:16px;
+  	margin-left:20px;
+    margin-top:15px;
+    width:85%
+    
+}
+input[type = "submit"].login:hover {
+	background-color:#FF9C00;
+	border: 2px solod  #FF9C00;
+	color:#FFFFFF;
+}
+input[type="checkbox"]{
+	margin-top:15px;
+}
+
+#registered-user a, a:visited, a:hover, a:focus {
+color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 55px;
+	
+}
+
+
+#password{
+	float:right;
+	width:50%;
+	 overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+

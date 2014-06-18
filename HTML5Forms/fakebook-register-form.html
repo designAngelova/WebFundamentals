@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Fakebook Register Form</title>
+		<link type="text/css" rel="stylesheet" href="css/04.css" />
+	</head>
+	<body>
+		<div class="content">
+			<header>
+		<img class="center" src="img/fakebook.png" id="logo"/>
+		</header>
+		<h1>Registration</h1>
+		<h2>It is safe and it will always be!</h2>
+		<div class="left-content">
+			<form>
+			<fieldset>
+				<legend  align="center">None-Important Information</legend>
+				<input type="text" placeholder="First Name"/>
+				<input type="text" placeholder="Last Name"/>
+				<input type="email" placeholder="Your Email"/>
+				<input type="tel" placeholder="Phone number"/>
+				<input type="password" placeholder="Your Password"/>
+				<input type="url" placeholder="Webste"/>
+				<div id="birday">
+				<label for="birthday-date">Birthday</label>
+				<input type="datetime" />
+				</div>
+				<input type="radio"id="female" />
+				<label for="female">Female</label>
+				
+				<input type="radio"id="male" />
+				<label for="female">Male</label>
+				
+				<input type="radio"id="other" />
+				<label for="female">Other</label>
+			</fieldset>
+			<input type="reset" value="Clear Form"/>
+			</form>
+			</div>
+			<div class="right-content">
+				<form>
+			<fieldset>
+				
+				<legend align="center">Important Information *required</legend>
+				<select id="country" name="country" required tabindex="1">
+					<option value="" >Country</option>
+					<option value="BG">Bulgaria</option>
+					<option value="ENG">UK</option>
+					<option value="USA">USA</option>
+					<option value="PL">Poland</option>
+					<option value="PR">Paradise</option>
+				</select>
+				<input type="text" id="village" placeholder="Village" required tabindex="2"/>
+				<input type="text" id="district" placeholder="District" required tabindex="3"/>
+				<div id="address">
+				<input type="text" id="street" placeholder="Street" required tabindex="4"/>
+				<input type="text" id="number" placeholder="Nr" required tabindex="5"/>
+				<input type="text" id="floor" placeholder="Floor" required tabindex="6"/>
+				<input type="text" id="appartment" placeholder="Ap Nr" required tabindex="7 /">
+				</div>
+				<div>
+				<label for="door-color">Door Color</label>
+				</div>
+				<input type="color"  id="color" name="door-color" value="#FF99CC" required tabindex="8"/>
+				<span id="metrix">
+				<input type="number" placeholder="Water Meter Nr" required tabindex="9"/>
+				<input type="number" placeholder="Aunt  Panties Size" min="24" max ="62" title="Size is between 24 & 62" required tabindex="10"/>
+				</span>
+				<label for="more-information">More Personal Information</label>
+				<textarea id="more-information" placeholder=" Give Us More Information !!!" required tabindex="11"> </textarea>
+				
+			</fieldset>
+			<input type="submit" value="Register" id="register" tabindex="12" />
+			
+			</form>
+		
+		</div>
+		</div>
+	</body>
+</html>
+

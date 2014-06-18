@@ -1,0 +1,64 @@
+body{
+	color:#2A4054; 
+	
+}
+#content{
+	width:880px;
+}
+button{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #DDF6FF;
+    border-radius: 5px;
+    color: #2A4054;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 180px;
+}
+h1{
+	font-size:16px;
+	font-weight: bold;
+	text-align: left;
+}
+h3{
+	font-size:14px;
+	font-weight: normal;
+	text-align: left;
+}
+span.price{
+	background:#2A4054; 
+	border:1 px solid #2A4054;
+	border-top-left-radius:20px;
+	color:#FFFFFF;
+	width:100px
+	height:35px;
+	float:right;
+	padding:10px;
+	margin-right:-8px;
+}
+.left-content{
+	width:600px;
+	float:left;
+	margin-left:50px;
+}
+.right-content{
+	  border: 2px solid #DDF6FF;
+    border-radius: 5px;
+    float: right;
+    height: 435px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 170px;
+   }
+label{
+	display:block;
+	text-align:center;
+}
+.left{
+	text-align: left;
+	font-size:12px;
+}
+.right{
+	float:right;
+	text-align: right;
+	font-size:12px;
+}
