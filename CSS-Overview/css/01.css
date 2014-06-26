@@ -1,0 +1,148 @@
+body{
+
+color:#000000;
+}
+.content{
+	background: none repeat scroll 0 0 #00953f;
+  
+    padding: 10px;
+    width: 60%;
+   }
+table.radius th, td {
+	border: 1px solid #000000;
+	
+	}
+table.radius{
+	border: 2px solid #000000;
+		 border-radius: 15px 15px 15px 15px;
+           overflow: hidden;
+	}
+table.radius th{
+	background:#FFCF0F;
+	font-weight:bold;
+	
+	height:20px;
+	font-size:14px;
+}
+table.radius tr{
+	
+	font-size:12px;
+	}
+table,  {
+	
+	font-family:Verdana;
+	}
+
+tr:nth-child(even) {
+	background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+	background: #CECECE
+}
+
+input[type="button"].red{
+		background:#FF0000;
+		width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       color:#FFFFFF;
+       font-size: 10px;
+       font-weight:bold;
+	}
+	
+input[type="button"].green{
+		background:#008400;
+		width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       color:#FFFFFF;
+       font-size: 10px;
+       font-weight:bold;
+	}
+input[type="number"].green-num{
+	color:#008400;
+}
+input[type="number"].red-num{
+	background:#E6E6E6;
+	color:#FF0000;
+}
+input[type="number"]{
+	
+	width:35px;
+}
+.right{
+	text-align:right;
+	width:200px;
+}
+.left{
+	text-align:left;
+	width:200px;
+}
+.center{
+	text-align:center;
+	width:100px;
+}
+span{
+	display: inline-block;
+	height: 17px;
+	width: 24px;
+}
+
+
+#brasil {
+    background-image: url("../img/brasil.png");
+    float: right;
+    margin-left: 2px;
+    
+}
+
+#spain {
+    background-image: url("../img/spain.png");
+    float: right;
+    margin-left: 2px;
+    
+}
+#italy {
+    background-image: url("../img/italy.png");
+    float: right;
+    margin-left: 2px;
+}
+#argentina {
+    background-image: url("../img/argentina.png");
+    float: right;
+    margin-left: 2px;
+}
+#germany {
+    background-image: url("../img/germany.png");
+    float: right;
+    margin-left: 2px;
+}
+
+#mexico {
+    background-image: url("../img/mexico.png");
+    float: left;
+    margin-left: 2px;
+    
+}
+#dutch {
+    background-image: url("../img/dutch.png");
+    float: left;
+    margin-left: 2px;
+ }
+#england {
+    background-image: url("../img/england.png");
+    float: left;
+    margin-left: 2px;
+ }
+ 
+#herz {
+    background-image: url("../img/herz.png");
+    float: left;
+    margin-left: 2px;
+ }
+#port {
+    background-image: url("../img/port.png");
+    float: left;
+    margin-left: 2px;
+ }
