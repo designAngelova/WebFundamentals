@@ -1,0 +1,35 @@
+body{
+	background:#000000;
+	font-family:Tahoma;
+	color: #FFCC00;
+}
+h1{
+	text-align: center;
+}
+.main{
+	width:420px;
+}
+a, a:visited, a:focus, a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-style: italic;
+ 
+}
+ul li{
+	list-style: none;
+}
+iframe#imgbox{
+	width:150px;
+	height:110px;
+	border: 2px solid #FFCC00;
+}
+
+
+.left{
+	float:left;
+	width:200px;
+}
+.right{
+	float:left;
+	width:220px;
+	}

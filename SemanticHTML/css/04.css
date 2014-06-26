@@ -1,0 +1,111 @@
+
+
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+
+/* header */
+header h1 {
+    margin-left: 50px;
+}
+    nav li {
+        list-style-type: none;
+        display: inline;
+        padding-right: 20px;
+        font-family: "Lucida Grande","Lucida Sans","Lucida Sans Unicode",sans-serif;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 90%;
+        color: #777777;
+    }
+    h2{
+    	 font-family: 'Droid Sans';
+    }
+    .search {
+    	background: none repeat scroll 0 0 #f7f7f7;
+        float: right;
+        margin-right: 30px;
+        padding: 0;
+        border-top-color: #dddddd;
+    }
+p{
+	
+}
+/* sidebars */
+aside ul li {
+    list-style-type: none;
+    margin-top: 5px;
+   color: #225e9b;
+   font-family: 'Droid Sans';
+  }
+aside .grey {
+    color: #AFAFAF;
+}
+#right {
+    float: right;
+    width: 20%;
+}
+#left {
+    float: left;
+    width: 20%;
+}
+
+/* section */
+section {
+    margin-left: 35px;
+    float: left;
+    width: 55%;
+}
+    section .meta-div {
+        word-spacing: 2px;
+        font-size: 75%;
+        font-family:Lucida Sans Unicode;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        color: #777777;
+    }
+    section .blue {
+         color: #225e9b;
+   font-family: 'Droid Sans';
+    }
+
+/* footer */
+footer {
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: #000000;
+    background-repeat:repeat-x;
+    font-family: 'Droid Sans';
+   height:auto;
+    color: white;
+    margin-top: 20px;
+}
+    footer table {
+        width: 100%;
+    }
+        table ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        table th, td {
+            width: 20%;
+            vertical-align: top;
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        table th {
+            padding-top: 20px;
+        }
+    footer .grey {
+        color: #5E665C;
+    }
+    footer #foot-header {
+        padding-left: 25px;
+        font-size: 130%;
+    }
