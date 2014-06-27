@@ -1,0 +1,38 @@
+@font-face {
+	font-family: Animated;
+	src: url("../font/Animated.ttf");
+}
+.content{
+	background:url(../img/HawaiiBackground.png) no-repeat #FFFFFF;
+	height:600px;
+	width:900px;
+}
+h1{
+	font-family: Animated;
+	color:#FFC121;
+	float:right;
+}
+/*<div id="vlado"> </div>
+				<div id="petia"> </div>
+				<div id="nakov"> </div>
+				<div id="alex"> </div>
+				<div id="vladoK"> </div>
+				<div id="tedi"> </div>
+			</div>*/
+#vlado{
+	position: absolute;
+	width: 270px;
+	height: 350px;
+	background: url("../img/VladoGHula.png");
+	background-repeat: no-repeat;
+	top: 200px;
+	left: 20px;
+}
+#petia{
+	 background: url("../img/PetiaHula.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 350px;
+    left: 160px;
+    position: absolute;
+    top: 165px;
+    width: 270px;
+}
