@@ -2,23 +2,36 @@
 	font-family: Animated;
 	src: url("../font/Animated.ttf");
 }
-.content{
-	background:url(../img/HawaiiBackground.png) no-repeat #FFFFFF;
-	height:600px;
+html{
+	height:609px;
 	width:900px;
 }
+body{
+	height:600px;
+	width:950px;
+	background: #0067DB;
+	background: -o-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: -webkit-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: -moz-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: radial-gradient(5% 5%, farthest-side, #ffffff 10%, #fffda0 ,#ffffff ,#0067DB);
+	background-repeat:no-repeat;
+}
+.content{
+	background:url("../img/HawaiiBackground.png");
+	height:600px;
+	width:892px;
+}
+
 h1{
 	font-family: Animated;
 	color:#FFC121;
 	float:right;
+	font-size:48px;
+	font-weight:normal;
+	margin-right:15px;
+	margin-top:-15px;
 }
-/*<div id="vlado"> </div>
-				<div id="petia"> </div>
-				<div id="nakov"> </div>
-				<div id="alex"> </div>
-				<div id="vladoK"> </div>
-				<div id="tedi"> </div>
-			</div>*/
+
 #vlado{
 	position: absolute;
 	width: 270px;
@@ -26,13 +39,47 @@ h1{
 	background: url("../img/VladoGHula.png");
 	background-repeat: no-repeat;
 	top: 200px;
-	left: 20px;
+	left: 50px;
 }
 #petia{
 	 background: url("../img/PetiaHula.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 350px;
-    left: 160px;
+    height: 370px;
+    left: 210px;
     position: absolute;
     top: 165px;
     width: 270px;
+}
+#nakov{
+	 background: url("../img/NakovHula.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 400px;
+    left: 450px;
+    position: absolute;
+    top: 130px;
+    width: 250px;
+}
+#alex{
+  background: url("../img/AlexHula.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 400px;
+    left: 530px;
+    position: absolute;
+    top: 175px;
+    width: 250px;
+}
+
+#vladoK {
+    background: url("../img/VladoKHula.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 400px;
+    left: 710px;
+    overflow: hidden;
+    position: absolute;
+    top: 195px;
+    width: 190px;
+   }
+#tedi{
+  background: url("../img/TediHula.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 400px;
+    left: 300px;
+    position: absolute;
+    top: 330px;
+    width: 250px;
 }

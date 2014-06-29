@@ -1,0 +1,125 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans');
+body{
+	font-family: 'PT Sans';
+}
+.content{
+	background: none repeat scroll 0 0 #234465;
+    margin: -10px 0 0;
+    overflow: hidden;
+    padding: 0 0 26px;
+    position: relative;
+}
+
+
+#grid{
+	width:100%;
+	margin: 0;
+    padding: 2.5rem;
+    box-sizing: border-box;
+}
+#grid:after{
+	
+	display:table;
+}
+h2 {
+    color: #ff9c00;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+}
+ul li {
+    color: #fff;
+    list-style: none;
+    line-height: 24px;
+    font-size:14px;
+    
+}
+p{
+	color: #fff;
+}
+#column-1{
+	width:150px;
+	  display: inline-block;
+	  vertical-align:top;
+}
+#column-1 > a{
+	border: 2px solid #ff9c00;
+    color: #fff;
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s linear 0s;
+  
+}
+#column-1 >a:hover{
+	background:#ff9c00;
+	}
+#column-2{
+	width:150px;
+	vertical-align:top;
+    display: inline-block;
+    
+    
+}
+#column-3{
+	width:150px;
+	vertical-align:top;
+    display: inline-block;
+}
+#column-4{
+	width:250px;
+	vertical-align:top;
+    display: inline-block;
+}
+#column-5{
+	width:250px;
+	vertical-align:top;
+    display: inline-block;
+}
+#soft-logo{
+	width:70px;
+	height:70px;
+	padding:10px;
+}
+#facebook{
+	background:#F1F3F6;
+	width:250px;
+}
+#facebook > h3{
+	color:#3b5998;
+	cursor: pointer;
+	font-size:13px;
+	float:right;
+	 margin-right: 30px;
+    margin-top: 20px;
+}
+#like{
+	display: inline-flex;
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+    width: 130px;
+   }
+#like > h4{
+	font-size:10px;
+	text-align:right;
+}
+#like-box{
+	width:60px;
+	height:25px;
+}
+hr{
+	 background: none repeat scroll 0 0 #666666;
+    margin-top: -5px;
+    opacity: 0.1;
+}
+#friends-box > h4{
+	font-size:10px;
+}
+#friends-box img{
+	width:50px;
+	height:50px;
+}
