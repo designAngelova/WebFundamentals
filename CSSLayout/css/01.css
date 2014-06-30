@@ -105,7 +105,7 @@ header > ul.menu >li{
 .sub-menu{
     width: 30rem;
     display: none;
-    padding: 6px 20px;
+    padding: 6px 10px;
     position: absolute;
     top: 2.5rem;
     border-bottom-right-radius: 10px;

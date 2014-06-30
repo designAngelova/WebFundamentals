@@ -14,7 +14,7 @@ body{
 #grid{
 	width:100%;
 	margin: 0;
-    padding: 2.5rem;
+    padding: 5%;
     box-sizing: border-box;
 }
 #grid:after{
@@ -39,9 +39,11 @@ p{
 	color: #fff;
 }
 #column-1{
-	width:150px;
+	width:15%;
 	  display: inline-block;
 	  vertical-align:top;
+	 padding-left:15px;
+	  padding-right: 15px;
 }
 #column-1 > a{
 	border: 2px solid #ff9c00;
@@ -58,26 +60,34 @@ p{
 	background:#ff9c00;
 	}
 #column-2{
-	width:150px;
+	width:15%;
 	vertical-align:top;
     display: inline-block;
+     padding-left:15px;
+	  padding-right: 15px;
     
     
 }
 #column-3{
-	width:150px;
+	width:15%;
 	vertical-align:top;
     display: inline-block;
+     padding-left:15px;
+	  padding-right: 15px;
 }
 #column-4{
-	width:250px;
+	width:20%;
 	vertical-align:top;
     display: inline-block;
+     padding-left:15px;
+	  padding-right: 15px;
 }
 #column-5{
-	width:250px;
+	width:20%;
 	vertical-align:top;
     display: inline-block;
+     padding-left:15px;
+	  padding-right: 15px;
 }
 #soft-logo{
 	width:70px;
