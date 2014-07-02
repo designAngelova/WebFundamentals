@@ -150,36 +150,47 @@ footer a {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 779px) {
+
 	body {
+
 		clear: both;
 		width: 100%;
+		background-repeat: repeat-y;
 	}
-section {
-    
-    width: 100%;
-}
+
+	section {
+		position: absolute;
+		width: 100%;
+		margin-left: 0px;
+	}
 	section div img {
 		padding-left: 2.5%;
 		padding-top: 1.5%;
 		width: 30%;
 	}
 
-aside.left {
-		width: 100%;
+	aside.left {
+		line-height: 0;
+		margin-top: 1.5%;
 		order: 2;
-		margin-top: 1.5%;
-	}
-
-aside.right {
+		position: absolute;
+		top: 680px;
 		width: 100%;
-		order: 3;
-		margin-top: 1.5%;
 	}
 
-footer {
+	aside.right {
+		width: 100%;
+		margin-top: 1.5%;
+		position: absolute;
+		top: 880px;
+	}
+
+	footer {
 		width: 100%;
 		order: 4;
 		margin-top: 1.5%;
+		position: absolute;
+		top: 1000px;
 	}
 	nav li {
 		margin-right: 8%;
@@ -198,5 +209,58 @@ footer {
 	}
 }
 @media only screen and (max-width: 640px) {
+	body {
+		clear: both;
+		width: 90%;
+		background-repeat: repeat-y;
+	}
+	nav{
+		margin-left:1%;
+	}
+	nav ul li {
+
+		display: block;
+		text-align: center;
+	}
+	section {
+		position: absolute;
+		width: 90%;
+		margin-left: 0px;
+	}
+	section div img {
+		padding-left: 2.5%;
+		padding-top: 1.5%;
+		width: 45%;
+	}
+
+	aside.left {
+		line-height: 0;
+		margin-top: 1.5%;
+		position: absolute;
+		top: 680px;
+		width: 85.9%;
+	}
+
+	aside.right {
+		margin: 0 auto;
+		
+		width: 90%;
+		position: absolute;
+		top: 880px;
+		
+	}
+		aside.right p{
+			line-height: 1;
+			width:90%;
+		}
+
+	footer {
+		width: 90%;
+		order: 4;
+		margin-top: 1.5%;
+		position: absolute;
+		top: 1000px;
+	}
+
 }
 
