@@ -1,0 +1,36 @@
+html body #content{
+	width:330px;
+}
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+article{
+	border-bottom: 1px dotted gray;
+	
+}
+.image{
+	float:left;
+	border:2px solid #3B3B3B;
+	width:127px;
+	height:95px;
+	margin-right:5px;
+}
+
+h2{
+	font-size:14px;
+	font-weight: bold;
+	text-align:left;
+	
+}
+h2:hover{
+	text-decoration: underline;
+}
+.date{
+	color:#A7A7AF;
+	font-size:12px;
+	margin-top:-5px;
+}
+.text{
+	font-size:14px;
+
+	}
